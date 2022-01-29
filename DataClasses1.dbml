@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="IT_Test" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.5.1;Initial Catalog=IT_Test;Persist Security Info=True;User ID=sa" SettingsObjectName="Quanlytaisan.Properties.Settings" SettingsPropertyName="IT_TestConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Quanlytaisan" Member="Quanlytaisans">
+    <Type Name="Quanlytaisan">
+      <Column Name="anh" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="stt" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="mataisan" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tentaisan" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="bophanquanly" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="bophansudung" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="nguoisudung" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="nguoisudungtruoc" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="thongtintaisan" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ngaykiemtra" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tinhtrangtaisan" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
